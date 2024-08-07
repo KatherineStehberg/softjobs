@@ -1,0 +1,33 @@
+{
+    "name": "apoyo-desafio-soft-jobs",
+    "author": "Raul Farias S",
+    "description": "Proyecto Frontend Desafio Soft Jobs",
+    "private": true,
+    "version": "0.0.0",
+    "license": "MIT",
+    "type": "module",
+    "engines": {
+      "node": "18.16.0"
+       
+    },
+    "eslintConfig": {
+      "extends": [
+        "./node_modules/standard/eslintrc.json"
+      ]
+    },
+    "scripts": {
+        "dev": "node --watch index.js",
+
+    },
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "jsonwebtoken": "^9.0.2",
+      "logger-express": "^1.1.0",
+      "pg": "^8.12.0",
+      },
+      }
+  
